@@ -1,0 +1,13 @@
+crime_heatmap:
+  outputs:
+    dev:
+      dbname: dev
+      host: default-workgroup.393206034158.us-east-1.redshift-serverless.amazonaws.com
+      user: hugo-access-cli
+      password: Magica167
+      port: 5439
+      schema: public
+      threads: 1
+      type: redshift
+      region: us-east-1
+  target: dev

@@ -1,0 +1,12 @@
+# models/sources.yml
+version: 2
+
+sources:
+  - name: raw_data
+    database: dev
+    schema: public
+    tables:
+      - name: crime_montreal_stage
+      - name: police_coverage_montreal_stage
+      - name: poverty_montreal_stage
+      - name: municipality_montreal_stage
